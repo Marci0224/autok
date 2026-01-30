@@ -1,10 +1,11 @@
 import { legjobb } from "./autok.js";
 
-console.log("Program elindult");
+console.log("A program elindult...");
 
-for (let i=0; i<=7; i++) {
-    console.log(i+".", "autó");
+for (let i=0; i<=8; i++) {
+    console.log(i, "autó");
 }
+console.log("Függvények:")
 legjobb();
 legjobb();
 
